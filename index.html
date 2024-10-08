@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A Simple Calculator</title>
+</head>
+<body>
+    <!-- classes
+        calculator
+        display-screen
+        buttons
+        digits
+        operators
+        all-clear
+        equal-operator -->
+
+    <div class="calculator">
+        <h2>Calculator</h2>
+        <input type="text" name="" id="display-screen" class="display-screen" placeholder="Enter values">
+        <input type="text" id="result-screen" class="result-screen" placeholder="Result" readonly>
+        <div class="buttons">            
+            <button type="button" class="digits" value="1">1</button>
+            <button type="button" class="digits" value="2">2</button>
+            <button type="button" class="digits" value="3">3</button>
+
+            <button type="button" class="operators" value="+">+</button>
+
+            <button type="button" class="digits" value="4">4</button>
+            <button type="button" class="digits" value="5">5</button>
+            <button type="button" class="digits" value="6">6</button>
+
+            <button type="button" class="operators" value="-">-</button>
+
+            <button type="button" class="digits" value="7">7</button>
+            <button type="button" class="digits" value="8">8</button>
+            <button type="button" class="digits" value="9">9</button>
+
+            <button type="button" class="operators" value="*">*</button>
+
+            <button type="button" class="all-clear" value="all-clear">AC</button>
+
+            <button type="button" class="digits" value="0.">0.</button>
+
+            <button type="button" class="operators" value="/">/</button>
+
+            <button type="button" class="equal-operator" value="=">=</button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
